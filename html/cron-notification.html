@@ -1,0 +1,30 @@
+<div style="margin: 50px 280px;">
+    <div style="width: 100%; display: block; margin-bottom: 10px; float: left; border-bottom: 1px solid #00297d;">
+        <img src="https://www.lorveet.com/img/lorveet_logo.png" style="float: left;position:relative;height: 66px;" height="50" alt="">
+        <p style="float: right;width: 80%;font-size: 30px;margin-bottom:  0;text-align:  right;position:  relative;color: #00297d;">Cron Job Notification</p>
+    </div>
+    <div style="width: 100%; display: block; float: left;">
+        <p style="color: #072e80;font-weight:  600;font-size: 20px;margin-bottom: 15px;">Dear Admin,</p>
+        <p style="font-size: 18px; color: #4c4b4b; margin-bottom: 20px;">
+            A cron job just ran and jobs have been updated
+        </p>
+    </div>
+    <div style="width: 100%; display: block; float: left;">
+        <p>
+            <span style="font-weight: 600;">Jobs Source:</span> {job-source}
+        </p>
+        <p>
+            <span style="font-weight: 600;">Number of jobs fetched:</span> {num-jobs}
+        </p>
+        <p>
+            <span style="font-weight: 600;">Date:</span> {date-time}
+        </p>
+        <pre>
+            <span style="font-weight: 600;">Message:</span> {status}
+        </pre>
+    </div>
+    <div style="width: 100%; display: block; margin-top: 15px; float: left;">
+        <i>This mail was sent automatically from lorveet.com and intended for lorveet admins. 
+            If you receive this mail by mistake, kindly delete it. Thanks.</i>
+    </div>
+</div>
